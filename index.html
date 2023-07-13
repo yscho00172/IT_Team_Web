@@ -66,6 +66,7 @@ body {font-family: Arial;}
   <button class="tablinks" onclick="openTab(event, 'printer')">프린터</button>
   <button class="tablinks" onclick="openTab(event, 'update')">업데이트</button>
   <button class="tablinks" onclick="openTab(event, 'wifi')">와이파이</button>
+  <button class="tablinks" onclick="openTab(event, 'pos-order')">주문 관련 문의</button>
   <button class="tablinks" onclick="openTab(event, 'contact')">전산팀 채널 문의</button>
 </div>
 
@@ -111,7 +112,7 @@ body {font-family: Arial;}
   <img src="image/POS_folders.JPG" alt="POS 폴더 목록" style="width:70%">
   <p>폴더 목록에서 수정한 날짜가 최신인 폴더(상기 화면에서는 POS 폴더)를 선택합니다.</p>
   <img src="image/TruPOS_exe.JPG" alt="TruPOS 실행 파일" style="width:70%">
-  <p>목록에서 TruPOS_exe 파일을 복사합니다.<br>(1) 오른쪽 클릭, 복사하기<br>(2) 파일 선택 후 ctrl + C 입력<br>둘 중 한 가지 방법으로 복사하시면 됩니다.</p>
+  <p>목록에서 TruPOS.exe 파일을 복사합니다.<br>(1) 오른쪽 클릭, 복사하기<br>(2) 파일 선택 후 ctrl + C 입력<br>둘 중 한 가지 방법으로 복사하시면 됩니다.</p>
   <img src="image/rewrite.JPG" alt="덮어쓰기 실행" style="width:70%">
   <p>다시 이전 폴더로 돌아와서 수동으로 업데이트하고 싶은 폴더를 선택한 후 붙여넣기 후 덮어쓰기 해줍니다.</p>
   <p>바탕 화면의 서브 프로그램 실행 아이콘을 선택하여 업데이트가 적용되었는지 확인합니다.</p>
@@ -138,11 +139,22 @@ body {font-family: Arial;}
   <p><a href="https://pf.kakao.com/_puRZxd" target="_blank">전산팀 카카오톡 채널</a></p>
 </div>
 
+<div id="pos-order" class="tabcontent">
+  <h3 style="font-size:larger">주문 관련 문의</h3>
+  <p style="font-size:larger"><b>주문 접수 가격 오류</b></p>
+  <p>포스에서 주문 접수 시 모든 메뉴가 0원으로 출력되는 현상 발생 시 바탕 화면의 포스 수동 적용 파일을 실행합니다.</p>
+  <p><img src="image/pos_update.JPG" alt="포스수동적용.bat 파일">
+  </po><br>파일이 없을 경우, 아래 파일을 다운로드 받아주세요.<br><br><a href="batch_file/포스수동적용.bat" download="포스수동적용.bat">파일 다운로드</a><br><br></p>
+  <p style="font-size:larger"><b>특정 주문 완료/취소 요청</b></p>
+  <p>특정 주문이 완료, 혹은 취소처리가 안될 경우 전산팀 채널로 문의 부탁 드립니다.</p>
+  <p>문의 시에는<br><br><a style = "color:#C0C">OO점, O월 O일 O번 주문 완료처리/취소처리 요청합니다.</a><br><br>위와 같은 형식으로 보내주시면 빠른 처리가 가능합니다.</p>
+  <p><a href="https://pf.kakao.com/_puRZxd" target="_blank">전산팀 카카오톡 채널</a></p>
+</div>
+
 <div id="contact" class="tabcontent">
     <h3>전산팀 채널 문의</h3>
     <p>기타 문의는 전산팀 채널로 문의 부탁드립니다.</p>
     <p>매장명, 장애 증상 적어서 보내주시면 확인하는대로 답변 드리고 있습니다.</p>
-    <p>예시1) ○○○점, 1월 1일자 26번 주문 완료처리 요청합니다.<br>예시2) ○○○점, 1월 3일자 17번 주문 취소처리 요청합니다.</p>
     <p><a href="https://pf.kakao.com/_puRZxd" target="_blank">전산팀 카카오톡 채널</a></p>
   </div>
 
